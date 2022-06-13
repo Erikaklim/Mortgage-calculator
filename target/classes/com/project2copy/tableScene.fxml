@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project2copy.controllers.TableSceneController">
+   <children>
+      <TableView fx:id="table" prefHeight="417.0" prefWidth="412.0">
+        <columns>
+          <TableColumn fx:id="monthCol" prefWidth="46.6666704416275" text="Month" />
+            <TableColumn fx:id="paymentAmountCol" prefWidth="70.00001907348633" text="Payment" />
+          <TableColumn fx:id="principalCol" prefWidth="72.33333587646484" text="Principal" />
+            <TableColumn fx:id="interestCol" prefWidth="66.33335876464844" text="Interest" />
+            <TableColumn fx:id="remainingAmountCol" prefWidth="153.00003051757812" text="Remaining  loan amount" />
+        </columns>
+      </TableView>
+      <Button fx:id="backToMenuTable" layoutX="388.0" layoutY="457.0" mnemonicParsing="false" onAction="#switchToMainScene" text="Back to menu" />
+   </children>
+</AnchorPane>

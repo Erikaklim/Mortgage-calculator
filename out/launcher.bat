@@ -1,0 +1,1 @@
+java --module-path "C:\Users\erika\openjfx-18_windows-x64_bin-sdk (1)\javafx-sdk-18\lib" --add-modules javafx.controls,javafx.fxml -jar Project2copy.jar
